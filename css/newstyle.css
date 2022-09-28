@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+.Top {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 10px;
+    
+}
+
+.topi {
+    display: flex;
+    gap: 22px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    max-width: fit-content;
+    /* neden border radius burda işlemedi */
+}
+
+.topt {
+    display: flex;
+    gap: 15px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    
+    /* text decoration ve color olmadı a tag */
+}
+.main {
+    text-align: center;
+    margin-top: 6.3%;
+    position:relative ;
+}
+.s0 {
+    height: 34px;
+    width: 100%; 
+    border: none;
+}
+.s1 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 32.5%;
+    border: solid 1px #dfe1e5;
+    border-radius: 100px;
+    margin-top: 18px;
+    padding:5px 20px;
+
+    
+}
+.s1:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+.s2 {
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.b0 {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;  
+    font-size: 14px;  
+    padding: 0 16px;
+    text-align: center;
+    cursor: pointer;
+    height: 36px;
+    }
+.b0:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+.footer {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background: #f2f2f2;
+    padding: 0 10px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+
+}
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+ul {
+    padding-left: 20px;
+}
+.tr {
+    text-align: center;
+    color: #4d5156;
+    line-height: 28px;
+    margin-top: 20px;
+    font-size: 14px;
+}
